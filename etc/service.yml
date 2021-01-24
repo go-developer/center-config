@@ -1,0 +1,19 @@
+# 服务监听端口
+port: 19000
+
+# 使用的存储驱动
+driver: mysql
+
+# mysql 存储配置
+mysql.host: "127.0.0.1"
+mysql.port: 3306
+mysql.database: "center_config"
+mysql.username: "root"
+mysql.password: "zhangdeman"
+
+# redis存储配置
+redis.host: "127.0.0.1"
+redis.port: 6379
+redis.database: "0"
+redis.username: ""
+redis.password: "zhangdeman"
